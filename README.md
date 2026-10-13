@@ -4,9 +4,13 @@
 [![React](https://img.shields.io/badge/React-19.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-8.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Security](https://img.shields.io/badge/Simulation-100%25_Safe_Sandbox-10b981?style=for-the-badge&logo=lock)](https://cisa.gov/)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-brightgreen?style=for-the-badge&logo=github)](https://puja2059.github.io/CodeAlpha_PhishingAwareness/)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 An interactive, responsive, scenario-driven web application developed for **CodeAlpha Cyber Security Internship Task 2: Phishing Awareness Training**.
+
+- 🌐 **Live Deployment:** [https://puja2059.github.io/CodeAlpha_PhishingAwareness/](https://puja2059.github.io/CodeAlpha_PhishingAwareness/)
+- 📂 **GitHub Repository:** [https://github.com/Puja2059/CodeAlpha_PhishingAwareness](https://github.com/Puja2059/CodeAlpha_PhishingAwareness)
 
 ---
 
@@ -203,29 +207,17 @@ CodeAlpha_Phishing-awarness/
 
 ## 🚢 9. Publishing to GitHub & GitHub Pages
 
-Follow these exact steps to publish to your GitHub repository:
+This repository is configured with automated continuous deployment to GitHub Pages via **GitHub Actions** (`.github/workflows/deploy.yml`).
 
-### Step 1: Initialize Git & Commit
-```bash
-git init
-git add .
-git commit -m "feat: complete interactive phishing awareness training platform for CodeAlpha Task 2"
-```
+### Live Application URL
+- **Production URL:** [https://puja2059.github.io/CodeAlpha_PhishingAwareness/](https://puja2059.github.io/CodeAlpha_PhishingAwareness/)
 
-### Step 2: Connect to Remote & Push
-```bash
-git branch -M main
-git remote add origin https://github.com/<YOUR_USERNAME>/CodeAlpha_PhishingAwareness.git
-git push -u origin main
-```
-
-### Step 3: Deploy to GitHub Pages (Automated via GitHub Actions)
-1. In your GitHub repository, navigate to **Settings** → **Pages**.
-2. Under **Build and deployment** → **Source**, select **GitHub Actions**.
-3. Choose the standard **Static HTML** or **Vite** starter workflow, or push the built `dist/` directory using `gh-pages`:
-   ```bash
-   npx gh-pages -d dist
-   ```
+### Automated CI/CD Workflow
+1. Every push to the `main` branch automatically triggers `.github/workflows/deploy.yml`.
+2. The workflow performs a clean dependency install (`npm ci`), verifies code quality (`npm run lint`), builds the production bundle with the subpath base (`npm run build`), and deploys the `dist/` directory directly to GitHub Pages.
+3. In your GitHub repository:
+   - Go to **Settings** → **Pages**.
+   - Under **Build and deployment** → **Source**, ensure **GitHub Actions** is selected.
 
 ---
 
@@ -233,7 +225,9 @@ git push -u origin main
 
 - **Internship:** CodeAlpha Cyber Security Internship
 - **Task:** Task 2 — Phishing Awareness Training
-- **Repository Name:** `CodeAlpha_PhishingAwareness`
+- **Student GitHub:** [Puja2059](https://github.com/Puja2059)
+- **Repository:** [CodeAlpha_PhishingAwareness](https://github.com/Puja2059/CodeAlpha_PhishingAwareness)
+- **Live URL:** [https://puja2059.github.io/CodeAlpha_PhishingAwareness/](https://puja2059.github.io/CodeAlpha_PhishingAwareness/)
 - **Application Type:** Fully Interactive Client-Side Web Application
 
 Developed with modern frontend standards, responsive design, and cybersecurity best practices.
