@@ -73,6 +73,7 @@ export default function App() {
 
         {activeTab === 'module-detail' && (
           <ModuleDetail 
+            key={activeModuleId}
             moduleId={activeModuleId}
             onBackToCurriculum={handleBackToCurriculum}
             onSelectModule={handleSelectModule}
