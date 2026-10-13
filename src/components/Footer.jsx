@@ -28,9 +28,9 @@ export default function Footer() {
             <h4 className="footer-col-title">Authoritative Resources</h4>
             <ul className="footer-link-list">
               <li>
-                <a 
-                  href="https://www.cisa.gov/secure-our-world/recognize-and-report-phishing" 
-                  target="_blank" 
+                <a
+                  href="https://www.cisa.gov/secure-our-world/recognize-and-report-phishing"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="footer-ext-link"
                 >
@@ -39,9 +39,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a 
-                  href="https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams" 
-                  target="_blank" 
+                <a
+                  href="https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="footer-ext-link"
                 >
@@ -50,9 +50,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a 
-                  href="https://www.ncsc.gov.uk/collection/phishing-scams" 
-                  target="_blank" 
+                <a
+                  href="https://www.ncsc.gov.uk/collection/phishing-scams"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="footer-ext-link"
                 >
@@ -61,9 +61,9 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a 
-                  href="https://apwg.org/" 
-                  target="_blank" 
+                <a
+                  href="https://apwg.org/"
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="footer-ext-link"
                 >
@@ -78,7 +78,7 @@ export default function Footer() {
           <div className="footer-col">
             <h4 className="footer-col-title">Simulation Safeguards</h4>
             <p className="disclaimer-text">
-              All emails, domain names (e.g. <code>.online</code>, <code>.biz</code>, <code>.top</code>), phone numbers, and organizations depicted in scenarios are fictional pedagogical instruments. 
+              All emails, domain names (e.g. <code>.online</code>, <code>.biz</code>, <code>.top</code>), phone numbers, and organizations depicted in scenarios are fictional pedagogical instruments.
             </p>
             <p className="disclaimer-text" style={{ marginTop: '0.5rem' }}>
               Designed strictly for defense, awareness, and benign education under white-hat ethical principles.
@@ -88,7 +88,8 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="footer-bottom-bar">
-          <p>© {CURRENT_YEAR} CodeAlpha Cyber Security Internship</p>
+          <p>© {CURRENT_YEAR} CodeAlpha Cyber Security Internship </p>
+
         </div>
       </div>
     </footer>

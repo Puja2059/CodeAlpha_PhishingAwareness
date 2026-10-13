@@ -4,17 +4,13 @@
 [![React](https://img.shields.io/badge/React-19.x-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-8.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Security](https://img.shields.io/badge/Simulation-100%25_Safe_Sandbox-10b981?style=for-the-badge&logo=lock)](https://cisa.gov/)
-[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-brightgreen?style=for-the-badge&logo=github)](https://puja2059.github.io/CodeAlpha_PhishingAwareness/)
 [![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
 An interactive, responsive, scenario-driven web application developed for **CodeAlpha Cyber Security Internship Task 2: Phishing Awareness Training**.
 
-- 🌐 **Live Deployment:** [https://puja2059.github.io/CodeAlpha_PhishingAwareness/](https://puja2059.github.io/CodeAlpha_PhishingAwareness/)
-- 📂 **GitHub Repository:** [https://github.com/Puja2059/CodeAlpha_PhishingAwareness](https://github.com/Puja2059/CodeAlpha_PhishingAwareness)
-
 ---
 
-## 🎯 1. Project Overview & Problem Statement
+##  1. Project Overview & Problem Statement
 
 ### The Threat Reality
 According to global cybersecurity threat reports, over **85% of corporate breaches involve a human element**, and phishing remains the leading initial access vector for ransomware and data theft. Traditional employee training often relies on passive, slide-based presentations that fail to cultivate intuitive threat detection instincts.
@@ -24,14 +20,14 @@ According to global cybersecurity threat reports, over **85% of corporate breach
 
 ---
 
-## ✨ 2. Key Features
+##  2. Key Features
 
-### 🛡️ A. Modern Cybersecurity Dashboard
+###  A. Modern Cybersecurity Dashboard
 - **Live Progress & Scoring:** Real-time calculation of course progress (%), completed modules, simulation XP, and security tier rank (*Cyber Recruit* → *Cyber Sentinel Master*).
 - **Persistent State:** Saves user progress, completed scenarios, quiz attempts, and badges in `localStorage`.
 - **Progress Reset:** Safe reset dialog with confirmation modal.
 
-### 📚 B. Six In-Depth Learning Modules
+###  B. Six In-Depth Learning Modules
 1. **Module 1: Introduction to Phishing & Social Engineering**
    - Attacker objectives (credential harvesting, BEC wire fraud, initial access brokerage).
    - Attack vectors: Spear phishing, Whaling, Smishing, Vishing, Clone phishing, BEC, and Quishing (QR code phishing).
@@ -59,7 +55,7 @@ According to global cybersecurity threat reports, over **85% of corporate breach
    - 80% passing threshold with instant review mode.
    - Awards the **Phish Hunter Pro** certificate badge.
 
-### 🧪 C. Interactive Phishing Simulation Laboratory
+###  C. Interactive Phishing Simulation Laboratory
 A dedicated laboratory featuring five realistic, safe fictional attack scenarios:
 1. **Scenario 1: Urgent Bank Account Suspension Notice** (Financial Credential Harvesting via lookalike `.online` domain).
 2. **Scenario 2: Postal Delivery Surcharge Smishing** (Mobile SMS with interactive smartphone frame mockup & tracking lures).
@@ -74,7 +70,7 @@ Each scenario includes:
 
 ---
 
-## 🛠️ 3. Technology Stack
+##  3. Technology Stack
 
 - **Frontend Framework:** React 19 + Vite 8
 - **Language:** JavaScript (ES6+ / JSX)
@@ -85,7 +81,7 @@ Each scenario includes:
 
 ---
 
-## 📁 4. Project Structure
+##  4. Project Structure
 
 ```text
 CodeAlpha_Phishing-awarness/
@@ -129,7 +125,7 @@ CodeAlpha_Phishing-awarness/
 
 ---
 
-## 🚀 5. Getting Started & Local Development
+##  5. Getting Started & Local Development
 
 ### Prerequisites
 - Node.js (v18.0.0 or higher)
@@ -173,7 +169,7 @@ CodeAlpha_Phishing-awarness/
 
 ---
 
-## 📸 6. Screenshots & Demonstration Guide
+##  6. Screenshots & Demonstration Guide
 
 *(Replace these image paths with your actual screenshots when preparing your LinkedIn demo video or portfolio showcase)*
 
@@ -187,7 +183,7 @@ CodeAlpha_Phishing-awarness/
 
 ---
 
-## 🔒 7. Safety, Ethical & Pedagogical Governance
+## 7. Safety, Ethical & Pedagogical Governance
 
 1. **100% Benign Simulation:** All domains (e.g. `chase-bank-verify.online`, `usps-tracking-redeliver.top`, `portal-auth.biz`), email addresses, and phone numbers are fictional pedagogical examples.
 2. **No Data Harvesting:** The application never requests, stores, or transmits genuine passwords, credit card numbers, or personally identifiable information (PII).
@@ -196,7 +192,7 @@ CodeAlpha_Phishing-awarness/
 
 ---
 
-## 🌐 8. Authoritative Phishing Defense Resources
+##  8. Authoritative Phishing Defense Resources
 
 - **CISA (Cybersecurity & Infrastructure Security Agency):** [Recognize and Report Phishing](https://www.cisa.gov/secure-our-world/recognize-and-report-phishing)
 - **FTC (Federal Trade Commission):** [How to Avoid Phishing Scams](https://consumer.ftc.gov/articles/how-recognize-and-avoid-phishing-scams)
@@ -205,29 +201,39 @@ CodeAlpha_Phishing-awarness/
 
 ---
 
-## 🚢 9. Publishing to GitHub & GitHub Pages
+##  9. Publishing to GitHub & GitHub Pages
 
-This repository is configured with automated continuous deployment to GitHub Pages via **GitHub Actions** (`.github/workflows/deploy.yml`).
+Follow these exact steps to publish to your GitHub repository:
 
-### Live Application URL
-- **Production URL:** [https://puja2059.github.io/CodeAlpha_PhishingAwareness/](https://puja2059.github.io/CodeAlpha_PhishingAwareness/)
+### Step 1: Initialize Git & Commit
+```bash
+git init
+git add .
+git commit -m "feat: complete interactive phishing awareness training platform for CodeAlpha Task 2"
+```
 
-### Automated CI/CD Workflow
-1. Every push to the `main` branch automatically triggers `.github/workflows/deploy.yml`.
-2. The workflow performs a clean dependency install (`npm ci`), verifies code quality (`npm run lint`), builds the production bundle with the subpath base (`npm run build`), and deploys the `dist/` directory directly to GitHub Pages.
-3. In your GitHub repository:
-   - Go to **Settings** → **Pages**.
-   - Under **Build and deployment** → **Source**, ensure **GitHub Actions** is selected.
+### Step 2: Connect to Remote & Push
+```bash
+git branch -M main
+git remote add origin https://github.com/Puja2059/CodeAlpha_PhishingAwareness.git
+git push -u origin main
+```
+
+### Step 3: Deploy to GitHub Pages (Automated via GitHub Actions)
+1. In your GitHub repository, navigate to **Settings** → **Pages**.
+2. Under **Build and deployment** → **Source**, select **GitHub Actions**.
+3. Choose the standard **Static HTML** or **Vite** starter workflow, or push the built `dist/` directory using `gh-pages`:
+   ```bash
+   npx gh-pages -d dist
+   ```
 
 ---
 
-## 📜 10. Submission Details
+##  10. Submission Details
 
 - **Internship:** CodeAlpha Cyber Security Internship
 - **Task:** Task 2 — Phishing Awareness Training
-- **Student GitHub:** [Puja2059](https://github.com/Puja2059)
-- **Repository:** [CodeAlpha_PhishingAwareness](https://github.com/Puja2059/CodeAlpha_PhishingAwareness)
-- **Live URL:** [https://puja2059.github.io/CodeAlpha_PhishingAwareness/](https://puja2059.github.io/CodeAlpha_PhishingAwareness/)
+- **Repository Name:** `CodeAlpha_PhishingAwareness`
 - **Application Type:** Fully Interactive Client-Side Web Application
 
 Developed with modern frontend standards, responsive design, and cybersecurity best practices.
