@@ -88,14 +88,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="footer-bottom-bar">
-          <p>© {CURRENT_YEAR} CodeAlpha Cyber Security Internship • Developed for Task 2: Phishing Awareness Training</p>
-          <div className="footer-bottom-links">
-            <span>Portfolio Ready</span>
-            <span>•</span>
-            <span>Client-Side Local Storage</span>
-            <span>•</span>
-            <span>GitHub Pages Deployable</span>
-          </div>
+          <p>© {CURRENT_YEAR} CodeAlpha Cyber Security Internship</p>
         </div>
       </div>
     </footer>

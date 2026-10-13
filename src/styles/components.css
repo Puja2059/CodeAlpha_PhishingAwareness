@@ -2510,18 +2510,11 @@
 
 .footer-bottom-bar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 1rem;
+  text-align: center;
   padding-top: 1.75rem;
   border-top: 1px solid rgba(148, 163, 184, 0.08);
   font-size: 0.8rem;
   color: var(--text-dim);
-}
-
-.footer-bottom-links {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
 }
