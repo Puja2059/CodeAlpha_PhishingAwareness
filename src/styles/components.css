@@ -269,6 +269,7 @@
 .hero-subtitle-gradient {
   background: linear-gradient(90deg, #22d3ee, #34d399);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: clamp(1.15rem, 2vw, 1.45rem);
   font-weight: 700;
