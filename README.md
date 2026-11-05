@@ -2,14 +2,6 @@
 # CodeAlpha Cyber Security Internship
 ## Task 2: Phishing Awareness Training
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Internship-CodeAlpha-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Domain-Cyber%20Security-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Task-Phishing%20Awareness-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Status-Completed-success?style=for-the-badge" />
-</p>
-
----
 
 ##  Project Overview
 
